@@ -27,6 +27,7 @@ import java.util.ArrayList;
 public class VisaDAO extends DBTester {
 
     private boolean debug = false;
+    private boolean directConnection = false;
 
     /**
      * TODO: Declarar un atributo booleano "prepared"
@@ -468,6 +469,20 @@ public class VisaDAO extends DBTester {
      */
     public void setDebug(String debug) {
         this.debug = (debug.equals("true"));
+    }
+
+    /**
+     * @return the debug
+     */
+    public boolean isDirectConnection() {
+        return directConnection;
+    }
+
+    /**
+     * @param debug the debug to set
+     */
+    public void setDirectConnection(boolean directConnection) {
+        this.directConnection = directConnection;
     }
 
 
