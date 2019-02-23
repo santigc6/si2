@@ -317,7 +317,7 @@ public class VisaDAOWS extends DBTester {
         }
 
         if(ret == false){
-          return false;
+          return null;
         } else{
           returned_pago = new PagoBean();
           returned_pago.setIdAutorizacion(pago.getIdAutorizacion());
@@ -497,7 +497,7 @@ public class VisaDAOWS extends DBTester {
     @Override
     @WebMethod(operationName = "isDirectConnection")
     public boolean isDirectConnection() {
-        super.isDirectConnection();
+        return super.isDirectConnection();
     }
 
     /**
@@ -506,7 +506,7 @@ public class VisaDAOWS extends DBTester {
     @Override
     @WebMethod(operationName = "setDirectConnection")
     public void setDirectConnection(@WebParam(name = "directConnection") boolean directConnection) {
-        super.setDirectConnection(directConnection);
+      super.setDirectConnection(directConnection);
     }
 
 
