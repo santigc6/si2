@@ -320,6 +320,11 @@ public class VisaDAOWS extends DBTester {
           return null;
         } else{
           returned_pago = new PagoBean();
+          returned_pago.setIdTransaccion(returned_pago.getIdTransaccion());        
+          returned_pago.setIdComercio(pago.getIdComercio());
+          returned_pago.setImporte(pago.getImporte()); 
+          returned_pago.setRutaRetorno(pago.getRutaRetorno()); 
+          returned_pago.setTarjeta(pago.getTarjeta()); 
           returned_pago.setIdAutorizacion(pago.getIdAutorizacion());
           returned_pago.setCodRespuesta(pago.getCodRespuesta());
           
