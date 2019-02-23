@@ -48,7 +48,6 @@ import ssii2.visa.VisaDAOWS; // Stub generado automáticamente
 import javax.xml.ws.WebServiceRef;
 import javax.xml.ws.BindingProvider;
 import ssii2.visa.*;
-import ssii2.visa.dao.VisaDAO;
 
 /**
  *
@@ -185,7 +184,7 @@ private void printAddresses(HttpServletRequest request, HttpServletResponse resp
               return;
           }
     pago = dao.realizaPago(pago);
-	  if (!pago) {      
+	  if (pago == null) {      
               enviaError(new Exception("Pago incorrecto"), request, response);
               return;
           }
