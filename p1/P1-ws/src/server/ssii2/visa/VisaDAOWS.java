@@ -338,7 +338,8 @@ public class VisaDAOWS extends DBTester {
      * @param idComercio
      * @return
      */
-    public PagoBean[] getPagos(String idComercio) {
+    @WebMethod(operationName = "getPagos")
+    public ArrayList<PagoBean> getPagos(@WebParam(name="idComercio") String idComercio) {
 
         PreparedStatement pstmt = null;
         Connection pcon = null;
@@ -411,7 +412,8 @@ public class VisaDAOWS extends DBTester {
      * @param idComercio
      * @return numero de registros afectados
      */
-    public int delPagos(String idComercio) {
+    @WebMethod(operationName = "delPagos")
+    public int delPagos(@WebParam(name="idComercio") String idComercio) {
 
         PreparedStatement pstmt = null;
         Connection pcon = null;

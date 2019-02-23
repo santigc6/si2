@@ -48,13 +48,19 @@ public class GetPagos extends ServletRaiz {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {        
         
-		VisaDAO dao = new VisaDAO();
+		VisaDAOWSService service = new VisaDAOWSService();
+    VisaDAOWS dao = service.getVisaDAOWSPort();
+    
+    url_from_xml=getServletContext().getInitParameter("webmaster");
+    
+    BindingProvider bp = (BindingProvider) dao;
+    bp.getRequestContext().put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY, url_from_xml);
 		
 		/* Se recoge de la petici&oacute;n el par&aacute;metro idComercio*/  
 		String idComercio = request.getParameter(PARAM_ID_COMERCIO);
 		
 		/* Petici&oacute;n de los pagos para el comercio */
-		PagoBean[] pagos = dao.getPagos(idComercio);        
+		PagoBean[] pagos = dao.getPagos(idComercio).toArray();        
 
         request.setAttribute(ATTR_PAGOS, pagos);
         reenvia("/listapagos.jsp", request, response);
