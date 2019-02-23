@@ -22,6 +22,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 /**
@@ -403,7 +404,9 @@ public class VisaDAOWS extends DBTester {
             }
         }
 
-        return ret;
+        ArrayList<PagoBean> retorn = new ArrayList<PagoBean>(Arrays.asList(ret));    
+        
+        return retorn;
     }
 
     // Borrar los pagos asociados a un comercio
