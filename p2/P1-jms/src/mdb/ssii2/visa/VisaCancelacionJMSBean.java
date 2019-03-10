@@ -30,7 +30,7 @@ public class VisaCancelacionJMSBean extends DBTester implements MessageListener 
   private MessageDrivenContext mdc;
 
   private static final String UPDATE_CANCELA_QRY = 
-      "update pagos set codrespuesta=? where idAutorizacion=?";
+      "update pagos set codRespuesta=? where idAutorizacion=?";
 
   private static final String SELECT_SALDO_TARJETA_QRY = 
       "select numeroTarjeta, importe from pago where idAutorizacion=?";
@@ -50,7 +50,7 @@ public class VisaCancelacionJMSBean extends DBTester implements MessageListener 
       boolean ret=true;
       String numero_tarjeta="";
       double importe_pago_saldo=0.0;
-
+      
       try {
           if (inMessage instanceof TextMessage) {
                msg = (TextMessage) inMessage;
@@ -60,7 +60,8 @@ public class VisaCancelacionJMSBean extends DBTester implements MessageListener 
            
                String cancela_qry=UPDATE_CANCELA_QRY;
                pstmt = con.prepareStatement(cancela_qry);
-               pstmt.setString(1, "999");
+               String cod_respuesta = "999";
+               pstmt.setString(1, cod_respuesta);
                pstmt.setInt(2, Integer.parseInt(msg.getText()));
                ret = false;
                if (!pstmt.execute()
