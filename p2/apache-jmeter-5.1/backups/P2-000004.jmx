@@ -194,7 +194,7 @@
               </elementProp>
               <elementProp name="codigoVerificacion" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">${codigoVerificacion}</stringProp>
+                <stringProp name="Argument.value">${codigoVerficacion}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">codigoVerificacion</stringProp>
@@ -329,7 +329,7 @@
               </elementProp>
               <elementProp name="codigoVerificacion" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">${codigoVerificacion}</stringProp>
+                <stringProp name="Argument.value">${codigoVerficacion}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">codigoVerificacion</stringProp>
@@ -464,7 +464,7 @@
               </elementProp>
               <elementProp name="codigoVerificacion" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.value">${codigoVerificacion}</stringProp>
+                <stringProp name="Argument.value">${codigoVerficacion}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">codigoVerificacion</stringProp>
