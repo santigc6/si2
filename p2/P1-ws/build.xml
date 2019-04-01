@@ -63,6 +63,11 @@ ant limpiar-todo
         <antcall target="desplegar-cliente" />
     </target>
     
+   <target name="replegar">
+        <antcall target="replegar-servicio" />
+        <antcall target="replegar-cliente" />
+    </target>
+
 	<target name="servicio">
         <antcall target="compilar-servicio" />
         <antcall target="empaquetar-servicio" />       
