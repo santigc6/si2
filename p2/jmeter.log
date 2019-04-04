@@ -3131,3 +3131,47 @@
 2019-04-04 14:28:40,833 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
 2019-04-04 14:28:40,833 INFO o.a.j.s.FileServer: Close: datagen/listado.csv
 2019-04-04 14:28:40,833 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-04-04 14:33:11,500 INFO o.a.j.g.a.Load: Loading file: /home/alumnos/e341074/si2/p2/P2-curvaProductividad.jmx
+2019-04-04 14:33:11,500 INFO o.a.j.s.FileServer: Set new base='/home/alumnos/e341074/si2/p2'
+2019-04-04 14:33:11,500 INFO o.a.j.s.SaveService: Loading file: /home/alumnos/e341074/si2/p2/P2-curvaProductividad.jmx
+2019-04-04 14:33:11,502 WARN o.a.j.c.CSVDataSet: Could not translate shareMode=All threads using Locale: es
+2019-04-04 14:33:11,529 WARN o.a.j.c.CSVDataSet: Could not translate shareMode=All threads using Locale: es
+2019-04-04 14:33:11,535 INFO o.a.j.s.FileServer: Set new base='/home/alumnos/e341074/si2/p2'
+2019-04-04 14:33:11,559 WARN o.a.j.c.CSVDataSet: Could not translate shareMode=All threads using Locale: es
+2019-04-04 14:33:11,570 WARN o.a.j.c.CSVDataSet: Could not translate shareMode=All threads using Locale: es
+2019-04-04 14:44:28,673 INFO o.a.j.g.a.Load: Loading file: /home/alumnos/e341074/si2/p2/P2-ej6.jmx
+2019-04-04 14:44:28,673 INFO o.a.j.s.FileServer: Set new base='/home/alumnos/e341074/si2/p2'
+2019-04-04 14:44:28,673 INFO o.a.j.s.SaveService: Loading file: /home/alumnos/e341074/si2/p2/P2-ej6.jmx
+2019-04-04 14:44:28,712 INFO o.a.j.s.FileServer: Set new base='/home/alumnos/e341074/si2/p2'
+2019-04-04 14:58:44,074 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-04-04 14:58:44,075 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-04 14:58:44,075 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-04-04 14:58:44,245 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : P1-base
+2019-04-04 14:58:44,246 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group P1-base.
+2019-04-04 14:58:44,246 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-04-04 14:58:44,246 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 perThread=5000.0 delayedStart=false
+2019-04-04 14:58:44,246 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-04-04 14:58:44,246 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-04-04 14:58:44,246 INFO o.a.j.t.JMeterThread: Thread started: P1-base 1-1
+2019-04-04 14:58:44,247 INFO o.a.j.s.FileServer: Stored: datagen/listado.csv
+2019-04-04 14:58:54,982 INFO o.a.j.t.JMeterThread: Thread is done: P1-base 1-1
+2019-04-04 14:58:54,982 INFO o.a.j.t.JMeterThread: Thread finished: P1-base 1-1
+2019-04-04 14:58:54,982 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-04-04 14:58:54,982 INFO o.a.j.s.FileServer: Close: datagen/listado.csv
+2019-04-04 14:58:54,983 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-04-04 15:04:35,501 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-04-04 15:04:35,502 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-04 15:04:35,503 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-04-04 15:04:35,613 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : P1-base
+2019-04-04 15:04:35,613 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group P1-base.
+2019-04-04 15:04:35,613 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-04-04 15:04:35,613 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 perThread=5000.0 delayedStart=false
+2019-04-04 15:04:35,613 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-04-04 15:04:35,613 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-04-04 15:04:35,613 INFO o.a.j.t.JMeterThread: Thread started: P1-base 1-1
+2019-04-04 15:04:35,614 INFO o.a.j.s.FileServer: Stored: datagen/listado.csv
+2019-04-04 15:04:44,609 INFO o.a.j.t.JMeterThread: Thread is done: P1-base 1-1
+2019-04-04 15:04:44,609 INFO o.a.j.t.JMeterThread: Thread finished: P1-base 1-1
+2019-04-04 15:04:44,609 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-04-04 15:04:44,609 INFO o.a.j.s.FileServer: Close: datagen/listado.csv
+2019-04-04 15:04:44,610 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
