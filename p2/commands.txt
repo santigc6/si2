@@ -1,0 +1,7 @@
+1. $asadmin --host 10.1.1.2 --user admin -W passwordfile get server.thread-pools.thread-pool.http-thread-pool.max-queue-size
+2. $asadmin --host 10.1.1.2 --user admin -W passwordfile get resources.jdbc-connection-pool.VisaPool.max-pool-size
+3. $asadmin --host 10.1.1.2 --user admin -W passwordfile get --monitor server.web.request.errorcount-count
+3-bis. $asadmin --host 10.1.1.2 --user admin -W passwordfile monitor
+Enter the value for the type option> httplistener
+ec   mt   pt     rc  
+12   2609 39.00  335
