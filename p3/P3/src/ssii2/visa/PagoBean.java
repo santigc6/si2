@@ -23,6 +23,24 @@ public class PagoBean {
         /* Calculados por el gestor de medios de pago */
         private String codRespuesta;    
         private String idAutorizacion;  
+    private String instancia;
+    private String ip;
+
+    public String getInstancia() {
+        return instancia;
+    }
+
+    public String getIp() {
+        return ip;
+    }
+    
+    public void setInstancia(String instancia) {
+        this.instancia = instancia;
+    }
+    
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
 
     /**
      * @return el ID de transacci&oacute;n
