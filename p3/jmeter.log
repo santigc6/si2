@@ -1,0 +1,192 @@
+2019-04-17 20:13:49,835 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2019-04-17 20:13:49,866 INFO o.a.j.JMeter: Loading user properties from: /home/santi/apache-jmeter-5.0/bin/user.properties
+2019-04-17 20:13:49,866 INFO o.a.j.JMeter: Loading system properties from: /home/santi/apache-jmeter-5.0/bin/system.properties
+2019-04-17 20:13:49,886 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-04-17 20:13:49,886 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-04-17 20:13:49,886 INFO o.a.j.JMeter: java.version=1.8.0_201
+2019-04-17 20:13:49,887 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-04-17 20:13:49,887 INFO o.a.j.JMeter: os.name=Linux
+2019-04-17 20:13:49,887 INFO o.a.j.JMeter: os.arch=amd64
+2019-04-17 20:13:49,887 INFO o.a.j.JMeter: os.version=4.15.0-47-generic
+2019-04-17 20:13:49,887 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-04-17 20:13:49,887 INFO o.a.j.JMeter: Max memory     =1832910848
+2019-04-17 20:13:49,887 INFO o.a.j.JMeter: Available Processors =4
+2019-04-17 20:13:49,906 INFO o.a.j.JMeter: Default Locale=English (United States)
+2019-04-17 20:13:49,906 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2019-04-17 20:13:49,907 INFO o.a.j.JMeter: JMeterHome=/home/santi/apache-jmeter-5.0
+2019-04-17 20:13:49,907 INFO o.a.j.JMeter: user.dir  =/home/santi/repos/si2/p3
+2019-04-17 20:13:49,907 INFO o.a.j.JMeter: PWD       =/home/santi/repos/si2/p3
+2019-04-17 20:13:49,907 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: santi-X550VXK FullName: santi-X550VXK
+2019-04-17 20:13:50,584 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-04-17 20:13:50,711 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2019-04-17 20:13:50,711 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2019-04-17 20:13:50,837 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-04-17 20:13:51,374 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-04-17 20:13:51,374 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-04-17 20:13:56,432 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-17 20:13:56,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-17 20:13:56,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-17 20:13:56,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-17 20:13:56,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-04-17 20:13:56,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-04-17 20:13:56,896 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-04-17 20:13:56,896 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/santi/apache-jmeter-5.0/bin/proxyserver.jks
+2019-04-17 20:13:57,023 INFO o.a.j.s.FileServer: Default base='/home/santi/repos/si2/p3'
+2019-04-17 20:13:57,307 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-04-17 20:13:57,307 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-04-17 20:13:57,307 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-04-17 20:13:57,307 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-04-17 20:14:09,569 INFO o.a.j.g.a.Load: Loading file: /home/santi/repos/si2/p3/P3/P2.jmx
+2019-04-17 20:14:09,569 INFO o.a.j.s.FileServer: Set new base='/home/santi/repos/si2/p3/P3'
+2019-04-17 20:14:09,719 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-04-17 20:14:09,728 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-04-17 20:14:09,729 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-04-17 20:14:09,732 INFO o.a.j.s.SaveService: Loading file: /home/santi/repos/si2/p3/P3/P2.jmx
+2019-04-17 20:14:09,867 INFO o.a.j.s.FileServer: Set new base='/home/santi/repos/si2/p3/P3'
+2019-04-17 20:15:29,227 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,230 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,231 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,231 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,232 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,233 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,233 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:15:29,233 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:15:29,234 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:15:29,234 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:15:29,234 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:15:29,234 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:15:29,234 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:15:29,234 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:15:29,234 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:15:29,235 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:15:29,239 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,240 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,339 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:15:29,340 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:15:29,341 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:15:29,341 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:15:29,341 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:15:29,342 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:15:29,342 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:15:29,342 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:15:29,343 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:15:29,343 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:15:29,343 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:19:15,924 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:15,926 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:15,926 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:15,927 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:15,927 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:19:15,927 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:19:15,928 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:19:15,928 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:19:15,928 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:19:15,928 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:19:15,928 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:19:15,928 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:19:15,928 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:19:15,928 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:19:16,056 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:19:16,057 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:19:16,058 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:19:55,274 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:55,278 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:55,278 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:55,281 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:55,281 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:19:55,281 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:19:55,282 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:19:55,282 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:19:55,282 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:19:55,283 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:19:55,283 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:19:55,283 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:19:55,284 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:19:55,284 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:19:55,369 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:19:55,370 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:19:55,370 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:19:55,370 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:19:55,370 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:19:55,371 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:19:55,371 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:19:55,371 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:19:55,371 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:19:55,372 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:19:55,372 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:24:49,575 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:24:49,578 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:24:49,578 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:24:49,579 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:24:49,579 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:24:49,579 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:24:49,579 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:24:49,579 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:24:49,579 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:24:49,579 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:24:49,579 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:24:49,580 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:24:49,580 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:24:49,580 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:24:49,669 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:24:49,670 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:24:49,670 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:24:49,670 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:24:49,671 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:24:49,671 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:24:49,671 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:24:49,671 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:24:49,672 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:24:49,672 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:24:49,672 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:26:12,226 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-04-17 20:26:12,227 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-17 20:26:12,227 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-17 20:26:12,237 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-04-17 20:26:12,355 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : P3
+2019-04-17 20:26:12,356 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group P3.
+2019-04-17 20:26:12,356 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-04-17 20:26:12,356 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 perThread=5000.0 delayedStart=false
+2019-04-17 20:26:12,358 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-04-17 20:26:12,359 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-04-17 20:26:12,374 INFO o.a.j.t.JMeterThread: Thread started: P3 1-1
+2019-04-17 20:26:12,376 INFO o.a.j.s.FileServer: Stored: datagen/listado.csv
+2019-04-17 20:26:12,387 INFO o.a.j.p.h.s.HTTPJavaImpl: Maximum connection retries = 0
+2019-04-17 20:26:37,898 INFO o.a.j.t.JMeterThread: Thread is done: P3 1-1
+2019-04-17 20:26:37,899 INFO o.a.j.t.JMeterThread: Thread finished: P3 1-1
+2019-04-17 20:26:37,899 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-04-17 20:26:37,899 INFO o.a.j.s.FileServer: Close: datagen/listado.csv
+2019-04-17 20:26:37,899 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-04-17 20:29:45,628 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:29:45,630 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:29:45,630 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:29:45,631 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-17 20:29:45,729 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-17 20:29:45,730 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-17 20:29:45,730 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-17 20:29:45,730 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-17 20:29:45,731 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-17 20:29:45,731 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-17 20:29:45,731 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-17 20:29:45,731 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-17 20:29:45,732 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-17 20:29:45,732 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-17 20:29:45,732 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
